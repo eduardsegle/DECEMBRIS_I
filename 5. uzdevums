@@ -1,0 +1,8 @@
+import datetime
+pašreizējā_stunda = datetime.datetime.now().hour
+if pašreizējā_stunda < 12:
+    print("Labrīt!")
+elif pašreizējā_stunda < 18:
+    print("Labdien!")
+else:
+    print("Labvakar!")
