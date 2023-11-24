@@ -1,0 +1,5 @@
+skaitlis = int(input("Ieraksti skaitli  "))
+if skaitlis % 3 == 0 and skaitlis % 7 == 0:
+    print(f"{skaitlis} dalās gan ar 3, gan arī ar 75")
+else:
+    print(f"{skaitlis} nedalās ar 3 un 7")
