@@ -1,0 +1,2 @@
+def faktorials(skaitlis):
+    rezultats = 1
